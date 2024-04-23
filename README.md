@@ -1,6 +1,6 @@
 # OpenMv串口发送
 
-为了解决`OpenMv`自带的`UART`串口发送吃能发送`ASCII`码的问题，对`OpenMv`的`UART`类继承，使用`Serial`类封装了`UART`类原有的方法，并且新增两个发送整型数据的方法
+为了解决`OpenMv`自带的`UART`串口发送只能发送`ASCII`码的问题，对`OpenMv`的`UART`类继承，使用`Serial`类封装了`UART`类原有的方法，并且新增两个发送整型数据的方法
 
 - `send_arr`：发送一个整形数组
 - `send`：发送一个整型数据
